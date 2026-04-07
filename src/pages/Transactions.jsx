@@ -158,6 +158,7 @@ const Transactions = () => {
 
                                         </div>
                                         <div className="transaction-details">
+                                            <div className="transaction-id">Transaction ID: #{transaction.id}</div>
                                             <div className="transaction-date">{formatDate(transaction.transactionDate)}</div>
                                             <div className="transaction-description">{transaction.description}</div>
                                             <div className="transaction-status">{transaction.status}</div>

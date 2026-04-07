@@ -20,13 +20,13 @@ import axios from "axios";
 // Every request your app makes will begin with this URL.
 // "localhost:8090" means "on this same computer, at port 8090"
 // — used when testing on your own machine.
-const API_BASE_URL = "http://localhost:8090/api"; //local url
+// const API_BASE_URL = "http://localhost:8090/api"; //local url
 
 // This line is COMMENTED OUT (the "//" at the start makes JS ignore it).
 // It's the real internet address of the production server.
 // The developer switches between the two depending on whether
 // they are testing locally or running the live app.
-// const API_BASE_URL = "http://3.141.18.52:8090/api";//prod url
+const API_BASE_URL = "http://56.68.67.211:8090/api";//prod url
 
 
 // "axios.create()" builds a CUSTOM axios instance.
